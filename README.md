@@ -106,9 +106,6 @@ pip install -r requirements.txt
   
   **You should see:**
   
-  csharp
-  
-  Copy
   
   🚀 Starting Flask server on port 5000
   * Running on http://127.0.0.1:5000
