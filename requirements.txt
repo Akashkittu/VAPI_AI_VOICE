@@ -1,0 +1,13 @@
+Flask
+python-dotenv
+vapi_python
+gspread
+oauth2client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+twilio
+vapi_server_sdk
+requests
+gunicorn
