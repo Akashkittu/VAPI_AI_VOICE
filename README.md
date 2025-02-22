@@ -54,17 +54,17 @@ Modular Codebase: Clean, modular, and well-documented Python code following best
 ### pip install -r requirements.txt
 
 ## Set Up Environment Variables: Create a .env file in the project root with the following content (replace placeholder values with your actual credentials):
-  ### Vapi Credentials
+  ##### Vapi Credentials
   VAPI_API_KEY=your_vapi_api_key
   
   VAPI_ASSISTANT_ID=your_vapi_assistant_id
   
-  ### Google Sheets Credentials
+  ##### Google Sheets Credentials
   GOOGLE_SHEET_ID=1xHMQnVjRCoYFGxLzCFrEjQgPlmL-rhmmqXsIbgZNB4c
   
   GOOGLE_SHEETS_CREDENTIALS_FILE=credentials.json
   
-  ### Email SMTP Credentials (for Gmail, use an App Password if 2FA is enabled)
+  ##### Email SMTP Credentials (for Gmail, use an App Password if 2FA is enabled)
   EMAIL_USERNAME=your-email@gmail.com
   
   EMAIL_PASSWORD=your-app-password
