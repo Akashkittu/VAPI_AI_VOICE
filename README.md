@@ -50,10 +50,31 @@ Modular Codebase: Clean, modular, and well-documented Python code following best
 **Standard Libraries:**
   smtplib and email modules for sending emails (these come with Python and do not require separate installation).
 
+# Installation
 
-### pip install -r requirements.txt
+### Clone the Repository:
 
-## Set Up Environment Variables: Create a .env file in the project root with the following content (replace placeholder values with your actual credentials):
+git clone-https://github.com/Akashkittu/VAPI_AI_VOICE
+
+cd VAPI_AI_VOICE
+
+### Create and Activate a Virtual Environment:
+
+python -m venv venv
+
+##### On Windows:
+
+venv\Scripts\activate
+
+##### On macOS/Linux:
+
+source venv/bin/activate
+
+### Install Dependencies:
+
+pip install -r requirements.txt
+
+### Set Up Environment Variables: Create a .env file in the project root with the following content (replace placeholder values with your actual credentials):
   ##### Vapi Credentials
   VAPI_API_KEY=your_vapi_api_key
   
