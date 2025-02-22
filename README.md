@@ -93,3 +93,22 @@ pip install -r requirements.txt
   SMTP_SERVER=smtp.gmail.com
   
   SMTP_PORT=465
+
+  ##### Secure Sensitive Files: Make sure your .env, credentials.json, and token.json files are added to your .gitignore file:
+  .env
+  
+  credentials.json
+  
+  token.json
+  
+  ##### Run the Flask Server:
+  python app.py
+  
+  **You should see:**
+  
+  csharp
+  
+  Copy
+  
+  🚀 Starting Flask server on port 5000
+  * Running on http://127.0.0.1:5000
